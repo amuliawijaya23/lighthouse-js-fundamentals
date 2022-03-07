@@ -1,17 +1,13 @@
-let facebookProfile = {
-  name: 'Aldi',
-  friends: 515,
-  messages: ['Netflix and chill for tonight', 'Michael Jordan is truly the GOAT!', 'NBA Allstar weekend is finally here!'],
-  postMessage: function(message) {
-    messages.push(message);
-  },
-  deleteMessage: function(index) {
-    this.messages.splice(index,1);
-  },
-  addFriend: function() {
-    friends += 1;
-  },
-  removeFriend: function() {
-    friends = friends - 1;
-  }
-}
+let changeType = {
+  twentyDollar: 0,
+  tenDollar: 0,
+  fiveDollar: 0,
+  twoDollar: 0,
+  oneDollar: 0,
+  quarter: 0,
+  dime: 0,
+  nickel: 0,
+  penny: 0
+};
+
+console.log(changeType[0]);
